@@ -13,4 +13,4 @@ script_name = "run_script.sh"
 
 # Ejecuta el script en cada dirección IP
 for ip in ips:
-    subprocess.call(["ssh", "user@" + ip, "sh", script_name])
+    subprocess.call(["ssh", "abelperez@" + ip, "permoabel", script_name])
